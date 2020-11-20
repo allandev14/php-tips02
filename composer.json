@@ -1,0 +1,33 @@
+{
+    "name": "allandev14/phptips01",
+    "description": "Conhecendo o composer",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "authors":[
+        {
+            "name": "Allan Sousa",
+            "email": "allanportinfo@gmail.com",
+            "role": "Developer",
+            "homepage":"https://nomedosite.com"
+
+        }
+    ],
+    "config": {
+        "vendor-dir": "vendor"
+    },
+    "autoload": {
+        "psr-4": {
+            "Source\\": "source/"
+        },
+        "files": [
+            "source/Config.php"
+        ]
+    },
+    "require": {
+        "phpmailer/phpmailer":"6.0.*"
+    },
+    "require": {
+        "coffeecode/datalayer": "1.1.*"
+}
+
+}
